@@ -121,6 +121,7 @@ function loadDelayed() {
 }
 
 async function loadPage() {
+console.log("Hi");
   await loadEager(document);
   await loadLazy(document);
   loadDelayed();
