@@ -19,7 +19,7 @@
   margin-right: auto; */
   color: var(--background-color);
 }
-.hero p {
+.hero .description {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -27,8 +27,12 @@
   margin-left: auto;
   margin-right: auto;
   color: var(--background-color);
+  font-size: 20px;
 }
-
+.text-green{
+  font-weight: 700;
+  color: #6dbc1e;
+}
 .hero picture {
   position: absolute;
   z-index: -1;
@@ -47,4 +51,27 @@
   .hero {
     padding: 40px 32px;
   }
+}
+.hero .row {
+  margin-top: 5%;
+  color: white;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero .row div{
+  width: 30%;
+  color: white;
+}
+.hero .row h4{
+  font-size: 24px;
+  margin-bottom: -10px;
+}
+.hero .row p{
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 32px;
 }
