@@ -162,7 +162,8 @@ a:any-link {
 }
 
 a:hover {
-  color: var(--link-hover-color);
+  /* color: var(--link-hover-color); */
+  color: blue;
   text-decoration: underline;
 }
 
