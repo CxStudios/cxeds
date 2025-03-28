@@ -37,6 +37,8 @@
   --heading-font-size-s: 24px;
   --heading-font-size-xs: 22px;
 
+   /* heading sizes mobile*/
+   --mobile-heading-font-size-xxl: 36px;
   /* nav height */
   --nav-height: 64px;
 }
@@ -142,10 +144,12 @@ pre {
   overflow-x: auto;
   white-space: pre;
 }
-
-main > div {
-  margin: 40px 16px;
+main{
+  background-color: black;
 }
+/* main > div {
+  background-color: black;
+} */
 
 input,
 textarea,
