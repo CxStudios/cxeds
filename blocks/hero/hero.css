@@ -1,21 +1,38 @@
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
+  margin-top: 30px;
 }
 
 .hero {
   position: relative;
   padding: 40px 24px;
-  min-height: 300px;
+  min-height: 1019px;
 }
 
 .hero h1 {
-  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 16px auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  color: var(--background-color);
+}
+.hero .description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   color: var(--background-color);
+  font-size: 20px;
 }
-
+.text-green{
+  font-weight: 700;
+  color: #6dbc1e;
+}
 .hero picture {
   position: absolute;
   z-index: -1;
@@ -34,4 +51,27 @@
   .hero {
     padding: 40px 32px;
   }
+}
+.hero .row {
+  margin-top: 5%;
+  color: white;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero .row div{
+  width: 30%;
+  color: white;
+}
+.hero .row h4{
+  font-size: 24px;
+  margin-bottom: -10px;
+}
+.hero .row p{
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 32px;
 }

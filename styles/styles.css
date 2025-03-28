@@ -231,13 +231,13 @@ main img {
 
 /* sections */
 main > .section {
-  margin: 40px 0;
+  /* margin: 40px 0; */
 }
 
 main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
+  /* max-width: 1200px; */
+  /* margin: auto; */
+  /* padding: 0 24px; */
 }
 
 main > .section:first-of-type {
@@ -246,7 +246,7 @@ main > .section:first-of-type {
 
 @media (width >= 900px) {
   main > .section > div {
-    padding: 0 32px;
+    /* padding: 0 32px; */
   }
 }
 
@@ -254,7 +254,7 @@ main > .section:first-of-type {
 main .section.light,
 main .section.highlight {
   /* background-color: var(--light-color); */
-  background-color: rgb(224, 172, 172);
+  /* background-color: rgb(224, 172, 172); */
   margin: 0;
   padding: 40px 0;
 }

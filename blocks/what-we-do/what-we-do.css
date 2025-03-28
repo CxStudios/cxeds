@@ -1,0 +1,35 @@
+
+.what-we-do-wrapper{
+    background-color: black;
+    color: white;
+    padding-top: 32px;
+    width: 100%;
+   
+}
+.what-we-do{
+    margin: 0px auto;
+    width: 70%
+}
+.what-we-do-wrapper h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+.what-we-do-wrapper h4{
+    font-weight: 700;
+    font-size: 28px;
+}
+.what-we-do-wrapper h4::before{
+    content: url('/../../icons/green-leaf-icon.svg');
+    margin-right: 12px;
+    margin-left: -10px;
+}
+.what-we-do-wrapper li{
+    font-size: 20px;
+    line-height: 1.6em;
+}
+.what-we-do .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
