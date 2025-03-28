@@ -44,7 +44,7 @@
 @media (width >= 900px) {
   .text-green{
     font-weight: 700;
-    color: #6dbc1e;
+    color:var(--cx-green);
   }
 }
 .hero picture {

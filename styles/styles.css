@@ -37,10 +37,11 @@
   --heading-font-size-s: 24px;
   --heading-font-size-xs: 22px;
 
-   /* heading sizes mobile*/
-   --mobile-heading-font-size-xxl: 36px;
   /* nav height */
   --nav-height: 64px;
+
+  /* CXstudios color */
+  --cx-green: #43A047;
 }
 
 /* fallback fonts */
