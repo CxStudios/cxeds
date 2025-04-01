@@ -1,14 +1,19 @@
-
 .what-we-do-wrapper{
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding-top: 32px;
-    width: 100%;
+    /* width: 100%; */
    
 }
 .what-we-do{
-    margin: 0px auto;
-    width: 70%
+    padding: 0px 32px;
+    width: 100%
+}
+@media (width >= 900px) {
+    .what-we-do{
+        margin: 0px auto;
+        width: 70%
+    }
 }
 .what-we-do-wrapper h2{
     text-align: center;
@@ -30,6 +35,13 @@
 }
 .what-we-do .row{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 65px;
+    flex-direction: column;
+}
+@media (width >= 900px) {
+    .what-we-do .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 65px;
+    }
 }

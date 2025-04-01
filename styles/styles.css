@@ -41,6 +41,9 @@
 
   /* nav height */
   --nav-height: 64px;
+
+  /* CXstudios color */
+  --cx-green: #43A047;
 }
 
 /* fallback fonts */
@@ -144,10 +147,12 @@ pre {
   overflow-x: auto;
   white-space: pre;
 }
-
-main > div {
-  margin: 40px 16px;
+main{
+  background-color: black;
 }
+/* main > div {
+  background-color: black;
+} */
 
 input,
 textarea,
