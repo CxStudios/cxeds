@@ -146,6 +146,9 @@ pre {
   white-space: pre;
 }
 main{
+  /* background-color: black; */
+}
+.bg-color-black{
   background-color: black;
 }
 /* main > div {
