@@ -151,6 +151,9 @@ main{
 .bg-color-black{
   background-color: black;
 }
+.text-color-white{
+  color: white;
+}
 /* main > div {
   background-color: black;
 } */
