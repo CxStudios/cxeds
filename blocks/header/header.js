@@ -163,4 +163,19 @@ export default async function decorate(block) {
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
   block.append(navWrapper);
+
+  //adding a nav link within the nav list
+  document.querySelectorAll('.nav-sections .default-content-wrapper > ul > li').forEach((li) => {
+    const text = li.textContent.trim();
+    const href = '/' + text.toLowerCase().replace(/\s+/g, '-'); 
+    
+    const a = document.createElement('a');
+    a.href = href;
+    a.textContent = text;
+    a.setAttribute('aria-expanded', 'false');
+  
+    li.textContent = ''; 
+    li.appendChild(a);
+  });
+  
 }
