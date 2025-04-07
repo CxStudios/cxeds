@@ -4,7 +4,7 @@
 }
 .columns-container{
   position: relative;
-  z-index: 2;
+  /* z-index: 2; */
 }
 .columns img {
   width: 100%;
@@ -36,7 +36,7 @@
 }
 
 /* Our partners */
-.columns-container p{
+.our-partners-title p{
   font-weight: 400;
   font-size: 36px;
   line-height: 120%;
