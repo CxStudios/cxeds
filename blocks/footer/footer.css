@@ -56,7 +56,7 @@ footer .footer p {
     font-weight: 600;
     font-size: 33.9256px;
     line-height: 125%;
-    color: #43A047;
+    /* color: #43A047; */
   }
   .footer .section ul{
     display: flex;
@@ -69,4 +69,8 @@ footer .footer p {
     
   }
  
+}
+.text-green{
+  font-weight: 700;
+  color:var(--cx-green);
 }

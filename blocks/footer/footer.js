@@ -17,4 +17,11 @@ export default async function decorate(block) {
   while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
 
   block.append(footer);
+  
+// green text
+  let paragraph = document.querySelectorAll('footer .footer .section')[1].querySelector('p');  
+  let text = paragraph.innerHTML;
+  let highlightedText = text.replace(/business growth/g, match => `<span class="text-green">${match}</span>`);
+  paragraph.innerHTML = highlightedText;
+
 }
