@@ -1,12 +1,12 @@
 footer {
-  background-color: var(--light-color);
+  background-color: var(--footer-bg-color);
   font-size: var(--body-font-size-xs);
 }
 
 footer .footer > div {
-  margin: auto;
+  /* margin: auto;
   max-width: 1200px;
-  padding: 40px 24px 24px;
+  padding: 40px 24px 24px; */
 }
 
 footer .footer p {
@@ -15,6 +15,59 @@ footer .footer p {
 
 @media (width >= 900px) {
   footer .footer > div {
-    padding: 40px 32px 24px;
+    padding: 100px 80px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    row-gap: 24px;
+
+    align-items: center;
+    justify-content: center;
+
+  }
+  footer .footer > div .section:nth-child(4),
+  footer .footer > div .section:nth-child(5),
+  footer .footer > div .section:nth-child(6){
+    padding-top: 24px;
+    border-top: 1px solid #ccc; /* thickness, style, color */
+  }
+  footer .footer > div .section:nth-child(2),
+  footer .footer > div .section:nth-child(5){
+    text-align: center; 
+  }
+  footer .footer > div .section:nth-child(3), 
+  footer .footer > div .section:nth-child(6){
+    text-align: end; 
+  }
+  footer .footer > div .section:nth-child(2) ul{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+  }
+  footer .footer > div .section:nth-child(2) p{
+    
+    font-weight: 600;
+    font-size: 33.9256px;
+    line-height: 125%;
+    color: #43A047;
+  }
+  .footer .section ul{
+    display: flex;
+    gap: 32px;
+
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    text-align: center;
+    
+  }
+  .footer .section {
+    /* height: 100%;
+    padding: 1rem;  */
+  }
+
+  /* Remove line from the last row items */
+  .footer .section:nth-last-child(-n+4) {
+    border-bottom: none;
   }
 }
