@@ -16,7 +16,8 @@
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
-  --link-color: #3b63fb;
+  /* --link-color: #3b63fb; */
+  --link-color: white;
   --link-hover-color: #1d3ecf;  
   --link-visited-color: #1435cc;
   --footer-bg-color: #212121;
@@ -270,3 +271,4 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
