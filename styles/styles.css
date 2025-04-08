@@ -18,8 +18,8 @@
   --text-color: #131313;
   /* --link-color: #3b63fb; */
   --link-color: white;
-  --link-hover-color: #1d3ecf;  
-  --link-visited-color: #1435cc;
+  --link-hover-color: #43A047;  
+  --link-visited-color: #43A047;
   --black-color: #000000;
   --green-color: #43A047;
   --footer-bg-color: #212121;
@@ -177,9 +177,11 @@ a:any-link {
 }
 
 a:hover {
-  /* color: var(--link-hover-color); */
-  color: black;
+  color: var(--link-hover-color);
   text-decoration: underline;
+}
+a:active {
+  color: var(--link-hover-color);
 }
 
 /* buttons */
