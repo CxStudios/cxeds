@@ -52,7 +52,7 @@ footer .footer p {
     justify-content: center;
   }
   footer .footer > div .section:nth-child(2) p{
-    
+    margin-bottom: 8px;
     font-weight: 600;
     font-size: 33.9256px;
     line-height: 125%;
@@ -68,13 +68,5 @@ footer .footer p {
     text-align: center;
     
   }
-  .footer .section {
-    /* height: 100%;
-    padding: 1rem;  */
-  }
-
-  /* Remove line from the last row items */
-  .footer .section:nth-last-child(-n+4) {
-    border-bottom: none;
-  }
+ 
 }
