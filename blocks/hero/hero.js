@@ -14,7 +14,10 @@ export default function decorate(block) {
         }
     });
     let paragraph = document.querySelector(".description p");  
+    if(paragraph)
+    {
     let text = paragraph.innerHTML;
     let highlightedText = text.replace(/strategy|innovation|lean six sigma|for your business growth./g, match => `<span class="text-green">${match}</span>`);
     paragraph.innerHTML = highlightedText;
+    }
 }
