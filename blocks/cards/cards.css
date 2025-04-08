@@ -25,3 +25,49 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.aboutcard {
+  background-color: #222222;
+
+  .cards {
+    width:90%;
+     margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cards > ul > li {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #000000;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    margin-top: 20%;
+    border:unset;
+    align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+      color:white;
+  }
+
+  .cards .cards-card-body
+  {
+    margin:unset;
+  }
+
+  .cards > ul > li img {
+    width: 100%;
+    aspect-ratio: unset;
+    object-fit: cover;
+  }
+
+  h5 {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
