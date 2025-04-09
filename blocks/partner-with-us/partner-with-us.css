@@ -165,7 +165,6 @@
     background: white;
     color: black;
     border: 3px solid var(--cx-green);
-    z-index: 2;
     width: 50%;
 }
 .connections-button-active{
@@ -187,7 +186,6 @@
     background: white;
     color: black;
     border: 3px solid var(--cx-green);
-    z-index: 2;
     width: 50%;
 }
 
@@ -207,6 +205,7 @@
         flex-grow: 1;
         margin: 0px -1px;
         border: 1px solid #FFFFFF;
+        width: 50%;
     }
     .connections-button-inactive{
         cursor: pointer;
@@ -223,6 +222,7 @@
         order: 1;
         flex-grow: 1;
         border: 1px solid #FFFFFF;
+        width: 50%;
     }
     .transformations-button-active{
         display: flex;
@@ -241,7 +241,7 @@
         background: white;
         color: black;
         border: 3px solid var(--cx-green);
-        z-index: 2;
+        width: 50%;
     }
     .connections-button-active{
         cursor: pointer;
@@ -251,7 +251,6 @@
         align-items: center;
         padding: 16px 24px;
         gap: 4px;
-        width: 340px;
         height: 40px;
         border-radius: 0px 12px 12px 0px;
         flex: none;
@@ -260,6 +259,8 @@
         background: white;
         color: black;
         border: 3px solid var(--cx-green);
-        z-index: 2;
+        width: 50%;
     }
 }
+
+
