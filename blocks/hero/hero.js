@@ -26,7 +26,7 @@ export default function decorate(block) {
 
     // Create the video element
     const video = document.createElement('video');
-    video.src = '/../../icons/hero-video_small.mp4'; 
+    video.src = '/../../icons/hero-video.mp4'; 
     video.autoplay = true;
     video.muted = true;
     video.loop = true;
