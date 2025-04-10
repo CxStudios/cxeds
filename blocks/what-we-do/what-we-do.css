@@ -71,3 +71,11 @@
     }
 
 }
+.what-we-do-with-video{
+    margin-top: 330px;
+}
+@media (width >= 900px) {
+    .what-we-do-with-video{
+        margin-top: 180px;
+    }
+}
