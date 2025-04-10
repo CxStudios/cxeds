@@ -145,7 +145,6 @@
     filter: saturate(0%);
     backface-visibility: hidden;
     transition: filter 300ms ease 0ms;
-    margin-top:-25px;
   }
 
 
