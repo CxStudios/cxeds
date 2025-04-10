@@ -33,6 +33,7 @@
     width:90%;
      margin-left: auto;
     margin-right: auto;
+    padding-bottom: 5%;
   }
 
   .cards > ul > li {
@@ -58,7 +59,13 @@
   .cards .cards-card-body
   {
     margin:unset;
+
+    p {
+      font-size: 16px;
+    }
   }
+
+
 
   .cards > ul > li img {
     width: 100%;
@@ -70,4 +77,103 @@
     font-size: 14px;
     font-weight: 300;
   }
+}
+
+.storycard {
+  
+
+  /* .cards {
+   background-color: white;
+  }  */
+
+  .cards > ul {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding-bottom: 5%;
+    padding-left: 25px;
+    padding-right: 25px;
+    @media (width >= 900px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+  .cards > ul > li {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 20%;
+    border:unset;
+        flex-wrap: wrap;
+        text-align: center;
+      color:white;
+      @media (width >= 900px) {
+      margin-right: 3%;
+
+      }
+  }
+
+  .cards .cards-card-body
+  {
+    margin:unset;
+    color:black;
+    text-align: left;
+    p {
+      font-size: 16px;
+      padding-left: 30px;
+      padding-right:30px;
+    }
+
+    h3 {
+      padding-left: 25px;
+      padding-right: 25px;
+      font-size: 22px;
+      font-weight: 600;
+      color: #000000 !important;
+      line-height: 1.2em;
+    }
+  }
+
+  .cards .cards-card-image
+  {
+    filter: saturate(0%);
+    backface-visibility: hidden;
+    transition: filter 300ms ease 0ms;
+    margin-top:-25px;
+  }
+
+
+
+  .cards > ul > li img {
+    width: 100%;
+    aspect-ratio: unset;
+    object-fit: cover;
+    animation: fadeTop 1s cubic-bezier(.77,0,.175,1) 1;
+    opacity: 1;
+ 
+  }
+
+  .cards-card-image:hover {
+    filter: unset;
+  }
+
+  .button-container {
+    a {
+      color: #FFFFFF !important;
+      border-width: 0px !important;
+      border-radius: 7px;
+      letter-spacing: 0px;
+      font-size: 14px;
+      background-color: #000000;
+      padding: 10px 40px;
+    }
+  }
+
+
 }

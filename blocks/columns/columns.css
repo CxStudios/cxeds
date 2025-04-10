@@ -35,44 +35,6 @@
   }
 }
 
-/* Our partners */
-.our-partners-title p{
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 120%;
-  text-align: center;
-  margin-bottom: 32px;
-}
-.our-partners{
-  background-color: white;
-  margin: 1% auto;
-  color: black;
-  padding: 24px 32px;
-  gap: 16px;
-  border-radius: 16px;
-  width: 90%;
-  height: 100%;
-}
-.our-partners div{
-  text-align: center;
-}
-@media (width >= 900px) {
-  .our-partners{
-    width: 50%;
-  }
-}
-/* .our-partners picture{
-  width: 100%;
-  height: 100%;
-  text-align: center;
-} */
-
-.our-partners img{
-  scale: 0.7;
-  width: auto;
-  height: auto;
-}
-
 .impact {
   background-color: var(--black-color);
   margin: 0;
@@ -123,17 +85,20 @@
     }
   }
   div {
+    color: var(--black-color);
       p {
         color: var(--black-color);
         &:first-child {
-          font-size: 48px;
+          font-size: 70px;
           font-weight: 600;
           color: var(--green-color);
           margin-top: 0;
+          margin-bottom: 0;
+          line-height: 70px;
         }
         &:last-child {
           font-size: 16px;
-          font-weight: 400;
+          font-weight: 300;
         }
       }
       h2 {

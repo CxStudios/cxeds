@@ -18,10 +18,10 @@
   --text-color: #131313;
   /* --link-color: #3b63fb; */
   --link-color: white;
-  --link-hover-color: #43A047;  
-  --link-visited-color: #43A047;
+  --link-hover-color: #6dbc1e; 
+  --link-visited-color: #6dbc1e;
   --black-color: #000000;
-  --green-color: #43A047;
+  --green-color: #6dbc1e;
   --footer-bg-color: #212121;
 
   /* fonts */
@@ -149,9 +149,7 @@ pre {
   overflow-x: auto;
   white-space: pre;
 }
-main{
-  /* background-color: black; */
-}
+
 .bg-color-black{
   background-color: black;
 }
@@ -246,25 +244,8 @@ main img {
   width: 100%;
 }
 
-/* sections */
-main > .section {
-  /* margin: 40px 0; */
-}
-
-main > .section > div {
-  /* max-width: 1200px; */
-  /* margin: auto; */
-  /* padding: 0 24px; */
-}
-
 main > .section:first-of-type {
   margin-top: 0;
-}
-
-@media (width >= 900px) {
-  main > .section > div {
-    /* padding: 0 32px; */
-  }
 }
 
 /* section metadata */
