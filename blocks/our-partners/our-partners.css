@@ -1,0 +1,36 @@
+.our-partners-container {
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    @media (width >= 900px) {
+        padding: 5px;
+    }
+
+
+    .default-content-wrapper {
+    background-color: #FFFFFF;
+    list-style-type: none;
+    border-radius: 15px;
+    }
+
+    .default-content-wrapper ol{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin:3%;
+        gap:10px;
+        padding: unset;
+        list-style-type: none;
+        @media (width >= 900px) {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            margin:3%;
+            gap:50px;
+        }
+        li {
+            list-style-type: none; 
+        }
+    }
+}
