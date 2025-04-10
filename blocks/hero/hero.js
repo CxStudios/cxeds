@@ -22,25 +22,30 @@ export default function decorate(block) {
     }
 
     // adding video
+   
     const hero = document.querySelector('.video-hero .row');
+    const buttonContainer = document.querySelector('.button-container');
 
-    if(hero)
-    {
-    // Create the video element
-    const video = document.createElement('video');
-    video.src = '/../../icons/hero-video.mp4'; 
-    video.autoplay = true;
-    video.muted = true;
-    video.loop = true;
-    video.playsInline = true; // Important for mobile
-    video.style.width = '100%';
-    video.style.height = '500px';
-    video.style.objectFit = 'cover';
-    video.style.position = 'absolute';
-    video.style.left = 0;
-    video.style.zIndex = '-1';
+    if (buttonContainer) {
+        const anchor = buttonContainer.querySelector('a');
 
-    hero.replaceWith(video);
+        if (anchor && anchor.href) {
+            const video = document.createElement('video');
+            
+            video.src = anchor.href;
+            video.autoplay = true;
+            video.muted = true;
+            video.playsInline = true; // Important for mobile autoplay
+        
+            video.setAttribute('autoplay', '');
+            video.setAttribute('muted', '');
+            video.setAttribute('playsinline', '');
+            video.setAttribute('loop', ''); 
+            video.setAttribute('preload', 'auto');
+
+            hero.replaceWith(video);
+        }
     }
+
 
 }
