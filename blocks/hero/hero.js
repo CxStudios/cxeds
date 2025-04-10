@@ -24,6 +24,8 @@ export default function decorate(block) {
     // adding video
     const hero = document.querySelector('.video-hero .row');
 
+    if(hero)
+    {
     // Create the video element
     const video = document.createElement('video');
     video.src = '/../../icons/hero-video.mp4'; 
@@ -39,5 +41,6 @@ export default function decorate(block) {
     video.style.zIndex = '-1';
 
     hero.replaceWith(video);
+    }
 
 }
