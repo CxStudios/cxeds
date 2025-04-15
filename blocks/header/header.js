@@ -92,7 +92,7 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   }
 
   // enable menu collapse on escape keypress
-  if (!expanded || isDesktop.matches) {
+  /*if (!expanded || isDesktop.matches) {
     // collapse menu on escape press
     window.addEventListener('keydown', closeOnEscape);
     // collapse menu on focus lost
@@ -100,7 +100,7 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   } else {
     window.removeEventListener('keydown', closeOnEscape);
     nav.removeEventListener('focusout', closeOnFocusLost);
-  }
+  }*/
 }
 
 /**
